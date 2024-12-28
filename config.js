@@ -5,9 +5,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ENTER YOUR SESSION HERE",
+SESSION_ID: process.env.SESSION_ID || "uExCQQKQ#Kbgt1wsRfDhxmjLYUSu3IowS1aRIdtqa9S4pbsNKc-U",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
@@ -15,8 +15,8 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/osriwc.jpg",
 ALIVE_MSG: process.env.ALIVE_MSG || "HI DEAR IM ONLINE I'M KERM_MD-V4 WHATSAPP BOT\n\n> 𝖡𝖸 𝖪𝖦𝖳𝖤𝖢𝖧",
 ANTI_LINK: process.env.ANTI_LINK || "true",
 ANTI_BAD: process.env.ANTI_BAD || "true",
-PREFIX: process.env.PREFIX || ".",
-FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
+PREFIX: process.env.PREFIX || "#",
+FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
 FAKE_TYPING: process.env.FAKE_TYPING || "false",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
